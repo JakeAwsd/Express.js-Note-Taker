@@ -1,32 +1,27 @@
-# Professional-README-Generator
+# Express Note Taker
 
-Professional-README-Generator is a useful application used to make making README's as fast and as easy as possible 
+The Express Note Taker allows for an easy note taking experience using express, node, uuid technologies
+
 
 ## Installation
 
 download the package from github: 
 ```bash
 ## Github Link
-https://github.com/JakeAwsd/Professional-README-Generator
+https://github.com/JakeAwsd/Express.js-Note-Taker
 ## Video walkthrough Link: 
-https://watch.screencastify.com/v/2dr6UZnR5tMvSf6g6xqJ
+https://note-taker-11-express.herokuapp.com/
 ```
 
 ## Usage
 
-```python
-
-node index.js
-
-# npm run test
-
+```express
+node server.js
 ```
 
 ## Demo
-Once the app is initialized you are prompted with input responses
-![Once the app is initialized you are prompted with input responses](./Develop/assets/Untitled_-Jun-11_-2022-11_44-PM.gif)
-![Once the app is initialized you are prompted with input responses](./Develop/assets/demoimage.png)
-
+Once a title is typed a save button appears in the top le
+![an image of the note taker](./public/assets/images/Screenshot%202022-06-14%20012314.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
