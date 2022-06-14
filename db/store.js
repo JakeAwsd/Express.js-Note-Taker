@@ -1,3 +1,4 @@
+import {v1 as uuidv1} from 'uuid';
 const util = require('util');
 const fs = require('fs');
 
@@ -6,7 +7,7 @@ const fs = require('fs');
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
-import {v1 as uuidv1} from 'uuid';
+
 
 class Store {
   read() {
