@@ -2,10 +2,11 @@ const util = require('util');
 const fs = require('fs');
 
 // This package will be used to generate our unique ids. https://www.npmjs.com/package/uuid
-import {v1 as uuidv1} from 'uuid';
+
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
+import {v1 as uuidv1} from 'uuid';
 
 class Store {
   read() {
@@ -37,7 +38,6 @@ class Store {
     if (!title || !text) {
       throw new Error("Note 'title' and 'text' cannot be blank");
     }
-
     // Add a unique id to the note using uuid package
     const newNote = { title, text, id: uuidv1() };
 
